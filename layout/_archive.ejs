@@ -1,0 +1,13 @@
+<ul class="archive">
+  <% posts.each((post, i) => { %>
+    <li>
+      <time><%= date(post.date) %></time>
+      <a href="<%= url_for(post.path) %>"><%= post.title %></a>
+    </li>
+  <% }) %>
+  <% if (!is_archive()) { %>
+    <li class="archive-link">
+      <a href="/archives">Archive</a>
+    </li>
+  <% } %>
+</ul>
