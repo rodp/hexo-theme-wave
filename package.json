@@ -1,0 +1,19 @@
+{
+  "name": "hexo-theme-wave",
+  "version": "0.0.1",
+  "description": "A dead simple theme for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodp/hexo-theme-wave.git"
+  },
+  "author": "Rodoljub Petrovic <me@rodpetrovic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodp/hexo-theme-wave/issues"
+  },
+  "homepage": "https://github.com/rodp/hexo-theme-wave#readme"
+}
