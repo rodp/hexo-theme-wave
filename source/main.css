@@ -152,3 +152,9 @@ img {
   display: block;
   width: 100%;
 }
+
+img + br + em {
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+}
