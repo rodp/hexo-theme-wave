@@ -3,6 +3,11 @@
     <li>
       <time><%= date(post.date) %></time>
       <a href="<%= url_for(post.path) %>"><%= post.title %></a>
+      <div class="categories">
+        <% post.categories.each((category, j) => { %>
+            <span class="category"><%= category.name %></span>
+        <% }) %>
+      </div>
     </li>
   <% }) %>
   <% if (!is_archive()) { %>
