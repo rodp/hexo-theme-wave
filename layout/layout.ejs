@@ -40,6 +40,9 @@
     <style type="text/css">
       a { color: <%= theme.color %> }
     </style>
+    <% if (theme.plausible) { %>
+    <script defer data-domain="<%= theme.plausible %>" src="https://plausible.io/js/plausible.js"></script>
+    <% } %>
   </head>
   <body>
     <%- body %>
