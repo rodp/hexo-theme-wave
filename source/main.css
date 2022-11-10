@@ -1,77 +1,78 @@
 body {
-    margin: 1rem auto;
-    padding: 2rem;
-    max-width: 640px;
-    font-family: sans-serif;
-    color: #333;
-    line-height: 2rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  max-width: 640px;
+  font-family: sans-serif;
+  color: #333;
+  line-height: 2rem;
 }
 
 hr {
-    display: block;
-    height: 12px;
-    border: 0;
-    margin: 2rem auto;
-    padding: 0;
-    background-image: url("swirl.svg");
-    background-position: center;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
+  display: block;
+  height: 12px;
+  border: 0;
+  margin: 2rem auto;
+  padding: 0;
+  background-image: url("swirl.svg");
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 header,
 footer {
-    text-align: center;
-    font-size: 0.8rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .logo {
-    display: block;
-    width: 64px;
-    height: 64px;
-    margin: 0 auto;
-    border-radius: 50%;
-    overflow: hidden;
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .logo img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 header.home.align-left {
-    text-align: left;
+  text-align: left;
 }
 
 header.home.align-center {
-    text-align: center;
+  text-align: center;
 }
 
-header.home img {
-    display: block;
-    width: auto;
-    margin: auto;
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
+header.home img,
+header.page img {
+  display: block;
+  width: auto;
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
 }
 
 time {
-    display: block;
+  display: block;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Roboto Slab", serif;
-    text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
 }
 
 h1 {
-    margin: 3rem 0;
-    font-size: 2rem;
-    line-height: 3rem;
+  margin: 3rem 0;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 h2,
@@ -80,104 +81,104 @@ p,
 ul,
 ol,
 time {
-    margin: 2rem 0 1rem;
-    padding: 0;
+  margin: 2rem 0 1rem;
+  padding: 0;
 }
 
 h2 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 p,
 ul,
 ol {
-    font-size: 1.2rem;
-    line-height: 2rem;
-    text-align: left;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: left;
 }
 
 ul li,
 ol li {
-    margin: 0 0 2rem 2rem;
-    padding: 0 0 0 1rem;
+  margin: 0 0 2rem 2rem;
+  padding: 0 0 0 1rem;
 }
 
 ul.archive {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem -1rem;
 }
 
 ul.archive li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: calc(50% - 4rem);
-    height: 150px;
-    min-width: 240px;
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-    background-color: #eee;
-    outline: solid 1px #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(50% - 4rem);
+  height: 150px;
+  min-width: 240px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #eee;
+  outline: solid 1px #eee;
 }
 
 ul.archive li.archive-link {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 @media (max-width: 640px) {
-    ul.archive li {
-        width: calc(100% - 4rem);
-    }
+  ul.archive li {
+    width: calc(100% - 4rem);
+  }
 }
 
 ul.archive li time {
-    margin: 0;
-    font-size: 0.8rem;
-    line-height: 1rem;
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 .categories {
-    margin-top: 0.4rem;
-    padding: 0;
-    line-height: 0.6rem;
-    text-align: center;
+  margin-top: 0.4rem;
+  padding: 0;
+  line-height: 0.6rem;
+  text-align: center;
 }
 
 h1 + .categories {
-    margin: -2rem 0 3rem;
+  margin: -2rem 0 3rem;
 }
 
 .categories .category {
-    display: inline-block;
-    margin: 0;
-    padding: 0.2rem 0.4rem;
-    border-radius: 1rem;
-    font-size: 0.6rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: #ddd;
+  display: inline-block;
+  margin: 0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 1rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #ddd;
 }
 
 blockquote {
-    border-left: solid 0.5rem #333;
-    margin-left: 0;
-    padding-left: 1rem;
-    font-size: 1rem;
+  border-left: solid 0.5rem #333;
+  margin-left: 0;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 img + br + em {
-    display: block;
-    font-size: 0.8rem;
-    text-align: center;
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
 }

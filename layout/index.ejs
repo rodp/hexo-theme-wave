@@ -3,7 +3,7 @@
 </header>
 
 <article>
-  <% site.pages.find(p => p.source === 'index.md').each(index => { %>
+  <% site.pages.filter(p => p.source === 'index.md').each(index => { %>
     <%- index.content %>
   <% }) %>
   <hr>

@@ -4,6 +4,9 @@ color: black
 home:
   logo: /logo.png
   align: center
+page:
+  logo: /logo.png
+  align: center
 post:
   logo: /logo.png
 plausible:
